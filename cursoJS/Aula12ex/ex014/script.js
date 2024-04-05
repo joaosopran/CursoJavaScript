@@ -16,6 +16,6 @@ if (hora >= 0 && hora < 12) {
 } else {
     // boa noite
     img.src = 'noite grande.png'
-    document.body.style.background = 'black'
+    document.body.style.background = 'gray'
 }
 }
