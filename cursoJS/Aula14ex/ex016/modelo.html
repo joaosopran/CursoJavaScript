@@ -13,6 +13,7 @@
             margin: 0;
     }
     </style>
+
 </head>
 <body>
     <header>
@@ -22,9 +23,9 @@
     <section>
 
         <div>
-           <p>Inicio: <input type="number" name="Inicio" id="txti"></p>
-           <p>FIM: <input type="number" name="fim" id="txtf"></p>
-           <p>Passo: <input type="number" name="passo" id="txtp"></p>
+           <p>Inicio: <input type="number" name="Inicio" id="txti" maxlength="99999"></p>
+           <p>FIM: <input type="number" name="fim" id="txtf" maxlength="99999"></p>
+           <p>Passo: <input type="number" name="passo" id="txtp" maxlength="99999"></p>
            <p> <input type="button" value="Contar" onclick="contar()"></p>
         </div>
         <div id="res">
